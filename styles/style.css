@@ -1,0 +1,465 @@
+*,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000000;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    max-width: 1480px;
+    overflow-x: hidden;
+}
+
+.header {
+    width: 100%;
+    background-color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: fixed;
+    box-shadow: 1px 0px 50px -7px rgba(0, 0, 0, .7);
+}
+
+.container {
+    max-width: 1480px;
+    margin: 0 auto;
+
+}
+
+.navigation {
+    background-color: white;
+
+}
+
+.navigation_lists_left {
+    float: left;
+    padding: 40px;
+    width: auto;
+    margin-left: 80px;
+}
+
+.navigation_lists_right {
+    float: right;
+    padding: 40px;
+    width: auto;
+    margin-right: 80px;
+}
+
+.navigation__list {
+    display: inline-block;
+    list-style: none;
+}
+
+.navigation__link {
+    text-decoration: none;
+    transition: all .65s;
+}
+
+.navigation__link:hover {
+    color: #22cf7e;
+    text-decoration: none;
+}
+
+
+.title {
+    color: #22cf7e;
+    font-weight: 600;
+    border-bottom: 2px solid #22cf7e;
+    display: inline;
+    margin-left: 8em;
+
+}
+
+
+.section1 {
+    padding-top: 120px;
+    width: 100%;
+
+}
+
+.card_list {
+    padding-top: 4em;
+    margin-left: 5em;
+    margin-right: 3em;
+}
+
+.about_card1,
+.about_card2 {
+    display: inline-block;
+    width: 30%;
+    color: #000000;
+    border-right: 2px solid #22cf7e;
+    text-align: center;
+}
+
+.about_card3 {
+    display: inline-block;
+    width: 30%;
+    color: #000000;
+    text-align: center;
+}
+
+.par1 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 1em;
+}
+
+.par2 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: small;
+    font-weight: 500;
+}
+
+.shop_button1 {
+    background-color: #22cf7e;
+    color: white;
+    border: 1px solid #22cf7e;
+    border-radius: 5px;
+    height: 3em;
+    width: 9em;
+}
+
+.shop_button2 {
+    border: none;
+    font-weight: 500;
+    height: 3em;
+    width: 9em;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.advertise {
+    background-image: url(/img/AdobeStock_174544330.jpeg);
+    /* background-color: white; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 33%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 150px;
+    background-position: center;
+
+}
+
+.adv1 {
+    color: #22cf7e;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+.adv2 {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 1em;
+
+}
+
+.shop_button3 {
+    background-color: #22cf7e;
+    color: white;
+    border: 1px solid #22cf7e;
+    border-radius: 5px;
+    height: 3em;
+    width: 9em;
+    margin-top: 1em;
+    margin-left: 180px;
+
+    position: absolute;
+}
+
+.section3 {
+    margin-left: 3em;
+}
+
+.picture {
+    display: inline-block;
+    padding-top: 70px;
+    height: 300px;
+    width: 200px;
+    margin-left: 3em;
+    margin-top: 3em;
+    margin-right: 3em;
+    margin-bottom: 5em;
+    background-image: url(/img/leaves.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+hr {
+    border: 1px solid #22cf7e;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 2em;
+}
+
+.shop {
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.shop_card {
+    display: inline-block;
+    height: 470px;
+    width: 20%;
+    border: 1px solid #22cf7e;
+    border-radius: 8px;
+    margin: 10px 10px;
+    padding: 20px;
+
+}
+
+.shop_card:hover {
+    box-shadow: 0px 10px 12px -7px rgba(0, 0, 0, .5)
+}
+
+.shop_num {
+    color: #22cf7e;
+    text-align: center;
+    margin-top: 1em;
+}
+
+
+
+.image_shop {
+    padding-left: 23px;
+    padding-right: 22px;
+}
+
+.shop_title {
+    color: #22cf7e;
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding-top: 1em;
+}
+
+.shop_description {
+    color: #000000;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.shop_price {
+    color: #22cf7e;
+    font-weight: bold;
+    text-align: center;
+    padding-top: .5em;
+}
+
+.shop_autor {
+    color: #22cf7e;
+    text-align: center;
+    font-size: small;
+    letter-spacing: 0.1em;
+    padding-top: .5em;
+}
+
+.bg_color {
+    width: 100%;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+.bg_pic {
+    background-image: url(/img/AdobeStock_174544330.jpeg);
+    height: 250px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg_text {
+    width: 160%;
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100 px;
+    text-align: center;
+}
+
+.par4 {
+    height: auto;
+
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.par5 {
+    height: auto;
+
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.par6 {
+    height: auto;
+
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quote {
+    color: #22cf7e;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.section6 {
+    margin-top: 3em;
+}
+
+.gallery_wrapper {
+    
+    margin-left: 200px;
+}
+
+.gallery_card {
+    height: 300px;
+    width: 30%;
+    background-image: url(/img/leaves.jpg);
+    border: 1px solid green;
+    border-radius: 5px;
+    color: white;
+    margin-top: 2em;
+    margin-left: 2em;
+    padding-top: 2em;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
+}
+
+.gal_title {
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    font-size: 1.2em;
+    padding-top: 1em;
+}
+
+.gal_main {
+    font-weight: bold;
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.gal_descr {
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    padding-top: 1em;
+    font-size: small;
+}
+
+.shop_button4 {
+    border: none;
+    font-weight: 500;
+    height: 3em;
+    width: 9em;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    margin-top: 1em;
+}
+
+.shop_button5 {
+    background-color: #22cf7e;
+    color: white;
+    border: 1px solid #22cf7e;
+    border-radius: 5px;
+    height: 3em;
+    width: 9em;
+    margin-left: 75px;
+    margin-top: 1em;
+}
+
+
+.footer_wrapper {
+    height: 120px;
+    width: 100%;
+    background-color: #22cf7e;
+    color: white;
+    margin-top: 2em;
+
+}
+
+.logo {
+    float: left;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 300px;
+    padding-top: 2em;
+    font-size: small;
+
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+    font-size: small;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 100px;
+}
+
+.call_button {
+    position: fixed;
+    left: 1400px;
+    bottom: 0;
+    height: 3.5em;
+    width: 4.5em;
+    color: white;
+    background-color: #22cf7e;
+    border: 1px solid white;
+    border-radius: 50px;
+
+}
+
+.footer_link {
+
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.navigation_lists_footer {
+    list-style: none;
+    float: right;
+    background-color: rgba(0, 0, 0, 0);
+    margin-right: 4em;
+
+}
+
+.footer_list {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0);
+    padding-top: 2em;
+    padding-right: 1em;
+    font-weight: bold;
+    font-size: small;
+}
