@@ -6,7 +6,6 @@ body {
     color: #000000;
     background-color: white;
     font-family: 'Lato', sans-serif;
-    max-width: 1480px;
     overflow-x: hidden;
 }
 
@@ -169,7 +168,7 @@ body {
     margin-top: 1em;
     margin-left: 180px;
 
-    position: absolute;
+    /* position: absolute; */
 }
 
 .section3 {
@@ -208,7 +207,7 @@ hr {
 
 .shop_card {
     display: inline-block;
-    height: 470px;
+    height: auto;
     width: 20%;
     border: 1px solid #22cf7e;
     border-radius: 8px;
@@ -230,8 +229,8 @@ hr {
 
 
 .image_shop {
-    padding-left: 23px;
-    padding-right: 22px;
+    /* padding-left: 23px;
+    padding-right: 22px; */
 }
 
 .shop_title {
