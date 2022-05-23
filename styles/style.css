@@ -335,7 +335,7 @@ hr {
 }
 
 .gallery_card {
-    height: 300px;
+    height: auto;
     width: 30%;
     background-image: url(/img/leaves.jpg);
     border: 1px solid green;
